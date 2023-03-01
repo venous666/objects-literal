@@ -1,0 +1,27 @@
+let bernas = "pula perna";
+let venus = "fabio giga";
+
+let obj = {bernas, venus};
+
+console.log(obj.venus)
+
+
+let producao = {
+horas:300,
+modelo:'fordismo',
+
+produzir(){
+console.log('trabalhar mais e mais!')
+}
+}
+
+let tipo= 'tipo_de_';
+
+let cadeira = {
+[tipo+"cadeira"]: 'verde'
+}
+
+console.log(tipo,cadeira)
+
+
+
